@@ -8,7 +8,7 @@ local function AddonVersion()
 	local get = (C_AddOns and C_AddOns.GetAddOnMetadata) or GetAddOnMetadata
 	local ok, version = pcall(get, ADDON_NAME, "Version")
 	if ok and type(version) == "string" and version ~= "" and not version:find("@", 1, true) then
-		return version
+		return (version:gsub("^v", "")) -- the packager writes the tag, "v1.0.0"
 	end
 	return "dev"
 end
