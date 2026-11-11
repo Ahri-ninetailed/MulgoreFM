@@ -1,0 +1,32 @@
+name: "Bug report / Сообщить об ошибке"
+description: "Something in Mulgore FM does not work as expected / Что-то в Mulgore FM работает не так"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: status
+    attributes:
+      label: "Output of /mfm status / Вывод /mfm status"
+      description: "Type /mfm status in game and paste the lines here or attach a screenshot. / Введите /mfm status в игре и вставьте строки сюда или приложите скриншот."
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What happened / Что произошло"
+      description: "What you did, what you expected to hear and what you heard. / Что вы делали, что ожидали услышать и что услышали."
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: "Error text / Текст ошибки"
+      description: "If the game showed a Lua error, paste it here. To see Lua errors, type /console scriptErrors 1 or install the BugSack addon. / Если игра показала ошибку Lua, вставьте её сюда. Чтобы видеть ошибки Lua, введите /console scriptErrors 1 или установите аддон BugSack."
+      render: text
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Game client language / Язык клиента игры"
+      options:
+        - "English"
+        - "Русский"
+        - "Other / Другой"

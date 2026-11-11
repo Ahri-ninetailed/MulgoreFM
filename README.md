@@ -49,6 +49,14 @@ Install it with the CurseForge app, or download the archive from [GitHub Release
 
 Game version: **WoW Forever**.
 
+## Found a bug?
+
+Open an issue on [GitHub](https://github.com/Ahri-ninetailed/MulgoreFM/issues) or leave a comment on CurseForge. Please include:
+
+- the output of `/mfm status` (a screenshot is fine);
+- what you did, what you expected to hear and what you heard;
+- the error text, if the game showed one. To see Lua errors, type `/console scriptErrors 1` or install the BugSack addon.
+
 ## Credits and license
 
 - **Sounds:** recordings by DRAGON-STUDIO and RibhavAgrawal (Pixabay, Pixabay Content License), and Joseph SARDIN, BigSoundBank.com (CC0). The sounds belong to their authors; details are in [SOURCES_AND_LICENSES.md](https://github.com/Ahri-ninetailed/MulgoreFM/blob/main/SOURCES_AND_LICENSES.md) inside the addon.
@@ -106,6 +114,14 @@ Source code and bug reports: [GitHub](https://github.com/Ahri-ninetailed/Mulgore
 Через приложение CurseForge, или скачайте архив из [GitHub Releases](https://github.com/Ahri-ninetailed/MulgoreFM/releases) и распакуйте папку `MulgoreFM` в `World of Warcraft\_forever_\Interface\AddOns`. После установки или обновления **полностью перезапустите игру**: `/reload` не подхватывает новые звуковые файлы.
 
 Версия игры: **WoW Forever**.
+
+## Нашли ошибку?
+
+Создайте issue на [GitHub](https://github.com/Ahri-ninetailed/MulgoreFM/issues) или напишите комментарий на CurseForge. Пожалуйста, приложите:
+
+- вывод `/mfm status` (можно скриншотом);
+- что вы делали, что ожидали услышать и что услышали;
+- текст ошибки, если игра его показала. Чтобы видеть ошибки Lua, введите `/console scriptErrors 1` или установите аддон BugSack.
 
 ## Авторы и лицензия
 
