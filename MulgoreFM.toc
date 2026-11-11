@@ -4,6 +4,7 @@
 ## Notes-ruRU: Отдельное «му» в чате звучит коровьим мычанием. У каждого отправителя свой постоянный голос. /mfm
 ## Author: Ahri-ninetailed
 ## Version: @project-version@
+## X-Curse-Project-ID: 1798896
 ## Category: Chat
 ## SavedVariables: MulgoreFMDB
 
