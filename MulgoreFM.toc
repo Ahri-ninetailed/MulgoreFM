@@ -1,5 +1,6 @@
 ## Interface: 16001
 ## Title: Mulgore FM
+## IconTexture: Interface\AddOns\MulgoreFM\Icon
 ## Notes: A standalone "moo" in chat becomes a cow call. Every sender keeps one cow voice. /mfm
 ## Notes-ruRU: Отдельное «му» в чате звучит коровьим мычанием. У каждого отправителя свой постоянный голос. /mfm
 ## Author: Ahri-ninetailed
